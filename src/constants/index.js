@@ -207,7 +207,7 @@ const projects = [
     ],
     image: devtube,
     repo: "https://github.com/L-Yacine/yl-devtube",
-    demo: "yl-tube.netlify.app",
+    demo: "http://yl-tube.netlify.app",
   },
   {
     id: "project-4",
@@ -229,7 +229,7 @@ const projects = [
     ],
     image: sdreads,
     repo: "https://github.com/L-Yacine/shortreads",
-    demo: "yl-short-reads.netlify.app",
+    demo: "http://yl-short-reads.netlify.app",
   },
   {
     id: "project-5",
