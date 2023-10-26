@@ -23,7 +23,7 @@ import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
 
 import php from "./tech/php.png";
-import mongoDB from "./tech/mongoDB.png";
+import mongoDB from "./tech/mongodb.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import flutter from "./tech/flutter.png";
