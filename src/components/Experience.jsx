@@ -9,6 +9,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { download, downloadHover, resume } from "../assets";
 import { textVariant } from "../utils/motion";
+import PropTypes from "prop-types";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -53,12 +54,22 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
+ExperienceCard.propTypes = {
+  experience: PropTypes.shape({
+    date: PropTypes.string.isRequired,
+    iconBg: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    company_name: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
 const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.
